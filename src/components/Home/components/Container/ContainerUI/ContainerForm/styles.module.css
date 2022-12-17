@@ -1,0 +1,264 @@
+.flex {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col > label {
+  width: 95px;
+  height: 21px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1e2a32;
+}
+
+.totalamut {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e9eef2;
+  border-radius: 4px;
+  width: 272px;
+  height: 56px;
+  padding: 0px 40px;
+  font-family: "Rubik";
+  color: #4d6475;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 120%;
+  background-image: url(../../../../../../../public/asset/icon/dollar-sign.png);
+  background-repeat: no-repeat;
+  background-position: 7px 15px;
+}
+.due {
+  width: 192px;
+  height: 56px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e9eef2;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+  line-height: 150%;
+  text-align: center;
+  color: #1e2a32;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+.containerTotal {
+  width: 480px;
+  height: 155px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 30px;
+  border: 1px solid #e9eef2;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+  height: 67px;
+}
+
+.sub > h4 {
+  width: 224px;
+  height: 24px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #1e2a32;
+}
+
+.sub > span {
+  width: 131px;
+  height: 38px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 120%;
+  text-align: right;
+  color: #0079ff;
+}
+
+.info {
+  width: 480px;
+  height: 75px;
+  background: #f4f8fa;
+}
+
+.info > p {
+  padding: 18px 24px;
+  width: 416px;
+  height: 32px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1c1e1f;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+.btnflex {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.button {
+  width: 320px;
+  height: 56px;
+  background: #1b31a8;
+  color: #fff;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .totalamut {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #e9eef2;
+    border-radius: 4px;
+    width: 312px;
+    height: 56px;
+    margin-top: 3px;
+    background-image: url(../../../../../../../public/asset/icon/dollar-sign.png);
+    background-repeat: no-repeat;
+    background-position: 7px 15px;
+  }
+  .due {
+    width: 312px;
+    height: 56px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #e9eef2;
+    border-radius: 4px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    line-height: 150%;
+    text-align: center;
+    color: #1e2a32;
+  }
+  .para {
+    width: 76px;
+    height: 48px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1e2a32;
+  }
+  .containerTotal {
+    width: 312px;
+    height: 155px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-top: 25px;
+    border: 1px solid #e9eef2;
+  }
+  .info {
+    width: 312px;
+    height: 75px;
+    background: #f4f8fa;
+    text-align: center;
+  }
+  .info > p {
+    padding: 18px 24px;
+    width: 248px;
+    height: 32px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1c1e1f;
+  }
+  .sub > h4 {
+    width: 160px;
+    height: 24px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #1e2a32;
+  }
+  .sub > span {
+    margin-top: 12px;
+    width: 98px;
+    height: 38px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: right;
+    color: #0079ff;
+  }
+}

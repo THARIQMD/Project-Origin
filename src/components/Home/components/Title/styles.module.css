@@ -1,0 +1,22 @@
+.title  > p {
+  width: 560px;
+  height: 24px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #1b31a8;
+}
+
+.title > p > span {
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+    .title{
+        margin-top: 60px;
+    }
+}
